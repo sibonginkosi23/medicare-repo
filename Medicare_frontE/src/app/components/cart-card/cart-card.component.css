@@ -1,0 +1,15 @@
+.gradient-custom {
+    min-height: 100vh;
+}
+
+
+.btn-custom {
+    color: #fff;
+    background-color: #48e5e0;
+    border-color: #6fa911;
+  }
+  .btn-custom:hover {
+    color: #fff;
+    background-color: #48e5e0;
+    border-color: #5b8912;
+  }
