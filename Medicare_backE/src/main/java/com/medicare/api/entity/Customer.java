@@ -17,7 +17,7 @@ public class Customer {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int CusId;
+	private int CustomerId;
 	private String name;
 	private int age;
 	private String gender;
@@ -50,11 +50,11 @@ public class Customer {
 	}
 
 	public int getCusId() {
-		return CusId;
+		return CustomerId;
 	}
 
 	public void setCusId(int cusId) {
-		CusId = cusId;
+		CustomerId = cusId;
 	}
 
 	public String getName() {
@@ -115,7 +115,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [CusId=" + CusId + ", name=" + name + ", age=" + age + ", gender=" + gender + ", email="
+		return "Customer [CusId=" + CustomerId + ", name=" + name + ", age=" + age + ", gender=" + gender + ", email="
 				+ email + ", address=" + address + ", mobile=" + mobile + ", products=" + products + "]";
 	}
 	
